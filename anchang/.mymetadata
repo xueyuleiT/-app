@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="anchang"
+  id="myeclipse.1411633591996"
+  context-root="/managerServer"
+  j2ee-spec="5.0"
+  archive="anchang.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

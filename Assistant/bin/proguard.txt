@@ -1,0 +1,79 @@
+# view res/layout/fivefragment.xml #generated:27
+# view res/layout/fourfragment.xml #generated:36
+# view res/layout/onefragment.xml #generated:25
+# view res/layout/picker.xml #generated:15
+# view res/layout/picker.xml #generated:8
+# view res/layout/threefragment.xml #generated:40
+# view res/layout/threefragment.xml #generated:90
+-keep class antistatic.spinnerwheel.WheelVerticalView { <init>(...); }
+
+# view res/layout/home.xml #generated:149
+-keep class com.assistant.fragment.FiveFragment { <init>(...); }
+
+# view res/layout/home.xml #generated:143
+-keep class com.assistant.fragment.FourFragment { <init>(...); }
+
+# view res/layout/home.xml #generated:125
+-keep class com.assistant.fragment.OneFragment { <init>(...); }
+
+# view res/layout/home.xml #generated:137
+-keep class com.assistant.fragment.ThreeFragment { <init>(...); }
+
+# view res/layout/home.xml #generated:131
+-keep class com.assistant.fragment.TwoFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:129
+-keep class com.assistant.service.FxService { <init>(...); }
+
+# view AndroidManifest.xml #generated:137
+-keep class com.assistant.service.PhoneReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:132
+-keep class com.assistant.service.SmsReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:99
+-keep class com.assistant.view.ContactsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:64
+-keep class com.assistant.view.HandDown { <init>(...); }
+
+# view AndroidManifest.xml #generated:95
+-keep class com.assistant.view.HandDownSave { <init>(...); }
+
+# view AndroidManifest.xml #generated:111
+-keep class com.assistant.view.Home { <init>(...); }
+
+# view AndroidManifest.xml #generated:76
+-keep class com.assistant.view.LaoDaiXin { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class com.assistant.view.Login { <init>(...); }
+
+# view AndroidManifest.xml #generated:105
+-keep class com.assistant.view.Register { <init>(...); }
+
+# view AndroidManifest.xml #generated:90
+-keep class com.assistant.view.Setting { <init>(...); }
+
+# view AndroidManifest.xml #generated:83
+-keep class com.assistant.view.ShowBeizhu { <init>(...); }
+
+# view AndroidManifest.xml #generated:69
+-keep class com.assistant.view.UserInfo { <init>(...); }
+
+# view res/layout/timepicker.xml #generated:14
+# view res/layout/timepicker.xml #generated:20
+# view res/layout/timepicker.xml #generated:27
+# view res/layout/timepicker.xml #generated:34
+# view res/layout/timepicker.xml #generated:8
+-keep class com.example.timeselect.WheelView { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class com.iflytek.speech.setting.IatSettings { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.iflytek.speech.setting.TtsSettings { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.iflytek.speech.setting.UnderstanderSettings { <init>(...); }
+

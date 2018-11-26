@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   
+    http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<servlet>
+		<servlet-name>coreServlet</servlet-name>
+		<servlet-class>com.manager.sevlet.CoreServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>LoginSevlet</servlet-name>
+		<servlet-class>com.manager.sevlet.LoginSevlet</servlet-class>
+	</servlet>
+	<!--
+	<servlet>
+		<servlet-name>UploadFile</servlet-name>
+		<servlet-class>com.manager.sevlet.UploadFile</servlet-class>
+	</servlet>
+	-->
+	<servlet>
+		<servlet-name>DataServlet</servlet-name>
+		<servlet-class>com.manager.sevlet.DataServlet</servlet-class>
+	</servlet>
+		<servlet>
+		<servlet-name>DataServletTwo</servlet-name>
+		<servlet-class>com.manager.sevlet.DataServletTwo</servlet-class>
+	</servlet>
+		<servlet>
+		<servlet-name>Register</servlet-name>
+		<servlet-class>com.manager.sevlet.Register</servlet-class>
+	</servlet>
+	
+	<!-- url-pattern中配置的/coreServlet用于指定该Servlet的访问路径 -->
+	<servlet-mapping>
+		<servlet-name>coreServlet</servlet-name>
+		<url-pattern>/coreServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DataServlet</servlet-name>
+		<url-pattern>/DataServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DataServletTwo</servlet-name>
+		<url-pattern>/DataServletTwo</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoginSevlet</servlet-name>
+		<url-pattern>/LoginSevlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Register</servlet-name>
+		<url-pattern>/Register</url-pattern>
+	</servlet-mapping>
+	<!--
+	<servlet-mapping>
+		<servlet-name>UploadFile</servlet-name>
+		<url-pattern>/UploadFile</url-pattern>
+	</servlet-mapping>
+	-->
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>  

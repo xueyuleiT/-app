@@ -1,0 +1,37 @@
+# view res/layout/threefragment.xml #generated:95
+-keep class antistatic.spinnerwheel.WheelVerticalView { <init>(...); }
+
+# view res/layout/home.xml #generated:29
+-keep class com.example.fragment.OneFragment { <init>(...); }
+
+# view res/layout/home.xml #generated:17
+-keep class com.example.fragment.ThreeFragment { <init>(...); }
+
+# view res/layout/home.xml #generated:23
+-keep class com.example.fragment.TwoFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class com.example.fragment.home { <init>(...); }
+
+# view res/layout/timepicker.xml #generated:14
+# view res/layout/timepicker.xml #generated:20
+# view res/layout/timepicker.xml #generated:26
+# view res/layout/timepicker.xml #generated:33
+# view res/layout/timepicker.xml #generated:8
+-keep class com.example.timeselect.WheelView { <init>(...); }
+
+# view AndroidManifest.xml #generated:47
+-keep class com.example.view.Detail { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
+-keep class com.example.view.Login { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.example.view.RegisterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class com.example.view.Setting { <init>(...); }
+
+# view res/layout/threefragment.xml #generated:102
+-keep class com.example.view.myListView { <init>(...); }
+

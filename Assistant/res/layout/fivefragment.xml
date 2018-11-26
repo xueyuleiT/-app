@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgground"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:background="@drawable/rect"
+        android:orientation="vertical" >
+
+        <TextView
+            android:visibility="invisible"
+            android:id="@+id/leibie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/sc_acm_inputbox"
+            android:textSize="@dimen/font_size_20" 
+            />
+
+        <antistatic.spinnerwheel.WheelVerticalView
+            android:id="@+id/select"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:padding="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rootView"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="3" >
+    </LinearLayout>
+
+</LinearLayout>
